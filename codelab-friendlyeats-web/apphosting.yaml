@@ -1,14 +1,10 @@
 env:
-  # Get these values from the Firebase console
-  - variable: NEXT_PUBLIC_FIREBASE_API_KEY
-    value: TODO
-  - variable: NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
-    value: TODO
-  - variable: NEXT_PUBLIC_FIREBASE_PROJECT_ID
-    value: TODO
-  - variable: NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
-    value: TODO
-  - variable: NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
-    value: TODO
-  - variable: NEXT_PUBLIC_FIREBASE_APP_ID
-    value: TODO
+const firebaseConfig = {
+apiKey: "AIzaSyAX6mRu7EvCkLKcdu9scVNg-o5Okn7wNF8",
+authDomain: "friendlyeats-codelab-ab1f5.firebaseapp.com",
+projectId: "friendlyeats-codelab-ab1f5",
+storageBucket: "friendlyeats-codelab-ab1f5.appspot.com",
+messagingSenderId: "592748013275",
+appId: "1:592748013275:web:31ea6895532238cde08efe",
+measurementId: "G-RS8JG2V75N",
+};
