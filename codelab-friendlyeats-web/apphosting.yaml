@@ -1,4 +1,3 @@
-env:
 const firebaseConfig = {
 apiKey: "AIzaSyAX6mRu7EvCkLKcdu9scVNg-o5Okn7wNF8",
 authDomain: "friendlyeats-codelab-ab1f5.firebaseapp.com",
